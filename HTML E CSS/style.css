@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh; 
+    background-color: #F37820;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+}
+
+.imagem-lateral {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-lateral img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0 20px 20px 0;
+}
+
+.formulario {
+    width: 747px;
+    height: auto;
+    border-radius: 20px;
+    margin: 10% auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F6F6F6;
+}
+
+.formulario h2 {
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="number"],
+.formulario input[type="tel"],
+.formulario textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario input[type="file"] {
+    margin-bottom: 5px;
+}
+
+.formulario input[type="submit"],
+.formulario button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.formulario input[type="submit"]:hover,
+.formulario button:hover {
+    background-color: #45a049;
+}
+
+.botoes {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.botoes button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #00215E;
+    color: white;
+    padding: 24px;
+    text-align: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos img {
+    width: 500px;
+    margin: 0 10px;
+}
+
+.botoes-anexo {
+    margin-bottom: 20px;
+}
